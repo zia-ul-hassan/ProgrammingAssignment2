@@ -1,3 +1,12 @@
+
+## Put comments here that give an overall description of what your
+## functions do
+
+## The two functions are meant to compute and cache the inverse of a matrix.
+
+
+
+## Write a short comment describing this function
 ## The first function sets the matrix, gets the value of the matrix, sets the inverse of the matrix and gets the inverse of the matrix
 
 
@@ -15,6 +24,9 @@ makeCacheMatrix <- function(x = matrix()) {
        setInverse = setInverse, 
        getInverse = getInverse)
 }
+
+
+## Write a short comment describing this function
 
 ## The second function calculates the inverse of the matrix. If the inverse was previously calculated then it just retrives it from the cache. Otherwise, it calculates the inverse and sets the value using setinverse() function.
 
